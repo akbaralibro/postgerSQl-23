@@ -64,8 +64,6 @@ adminRoute.post('/createAdmin', adminController.createAdmin)
  *     responses:
  *       200:
  *         description: Login successful
- *       401:
- *         description: Invalid credentials
  *       404:
  *         description: Admin not found
  *       500:

@@ -14,7 +14,7 @@ module.exports = (sequelize, DataType) => {
 		login: {
 			type: DataType.STRING,
 		},
-		hashed_password: {
+		password: {
 			type: DataType.STRING,
 		},
 		is_active: {
@@ -22,9 +22,6 @@ module.exports = (sequelize, DataType) => {
 		},
 		is_creator: {
 			type: DataType.BOOLEAN,
-		},
-		hashed_refresh_token: {
-			type: DataType.STRING,
 		},
 	})
 
